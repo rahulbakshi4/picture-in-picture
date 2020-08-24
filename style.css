@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 html {
   box-sizing: border-box;
 }
@@ -6,4 +6,25 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  background: #525252;
+}
+/* Button Styling */
+button {
+  border: 6px solid #2b2b28;
+  border-radius:9px;
+  outline: none;
+  cursor: pointer;
+  width: 360px;
+  height: 85px;
+  font-family: 'Kalam', cursive;
+  font-size: 40px;
+  color: black;
+  background: #ebebe3;
+}
+button:active{
+  transform: translate(0,0.2rem);
+  box-shadow: 0.3rem 0.6rem #220e24;
 }

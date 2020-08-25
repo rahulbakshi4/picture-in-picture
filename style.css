@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
 html {
   box-sizing: border-box;
 }
@@ -9,20 +9,24 @@ body {
   display : flex;
   justify-content: center;
   align-items: center;
-  background: #525252;
+  background: #1B1B1B;
 }
 /* Button Styling */
 button {
-  border: 6px solid #2b2b28;
-  border-radius:9px;
+  border: 18px solid #3C3C3E;
+  border-radius:35px;
   outline: none;
   cursor: pointer;
-  width: 360px;
+  width: 310px;
   height: 85px;
-  font-family: 'Kalam', cursive;
-  font-size: 40px;
+  font-family: 'Jockey One', sans-serif;
+  font-size: 32px;
   color: black;
   background: #ebebe3;
+}
+button:hover{
+  color:#ebebe3;
+  background: #1B1B1B;
 }
 button:active{
   transform: translate(0,0.2rem);
